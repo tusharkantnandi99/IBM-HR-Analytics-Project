@@ -1,5 +1,4 @@
-USE hr_analytics;
-
+USE hr_data_analysis;
 CREATE TABLE employees (
     EmployeeNumber INT,
     Age INT,
@@ -22,4 +21,4 @@ CREATE TABLE employees (
     YearsWithCurrManager INT
 );
 DESCRIBE employees;
-SELECT COUNT(*) FROM employees; -- 0
+SELECT COUNT(*) FROM employees; -- 1470
